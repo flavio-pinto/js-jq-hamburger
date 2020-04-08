@@ -1,10 +1,10 @@
-var hambMenu = $('.header-right a');
+var hambMenu = $('.header-right > a');
 
 hambMenu.click(function(){
     $('.hamburger-menu').show();
 });
 
-var closeMenu = $('.close');
+var closeMenu = $('.hamburger-menu a.close');
 
 closeMenu.click(function(){
     $('.hamburger-menu').hide();
